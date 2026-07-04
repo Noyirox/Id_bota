@@ -1,0 +1,604 @@
+=== RAPPORT D'EXTRACTION SPM ===
+Espèces Go Botany totales : 3520
+Espèces identifiées comme présentes à SPM : 597
+Images détaillées téléchargées pour SPM : 5447
+==================================
+
+Espèces SPM trouvées :
+- Carex aquatilis (Statut: P) - FR: 
+- Carex arctata (Statut: P) - FR: 
+- Carex bebbii (Statut: P) - FR: 
+- Carex brunnescens (Statut: D) - FR: Laîche brunissante, Laîche brunâtre
+- Carex buxbaumii (Statut: P) - FR: Laîche de Buxbaum
+- Carex canescens (Statut: D) - FR: Laîche blanchâtre, Laîche courte, Laîche tronquée
+- Carex capillaris (Statut: P) - FR: Laîche capillaire, Laîche à feuilles capillaires
+- Carex caryophyllea (Statut: I) - FR: Laîche caryophyllée, Laîche printanière, Laîche du printemps
+- Carex chordorrhiza (Statut: P) - FR: Laîche à longs rhizomes
+- Carex conoidea (Statut: P) - FR: 
+- Carex crawfordii (Statut: P) - FR: Laîche de Crawford
+- Carex debilis (Statut: P) - FR: 
+- Carex deflexa (Statut: P) - FR: 
+- Carex diandra (Statut: P) - FR: Laîche à deux étamines, Laîche arrondie, Laîche à tige arrondie
+- Carex disperma (Statut: P) - FR: 
+- Carex echinata (Statut: D) - FR: Laîche étoilée, Laîche-hérisson, Laîche épineuse
+- Carex exilis (Statut: P) - FR: 
+- Carex flava (Statut: P) - FR: Laîche jaune, Laîche jaunâtre
+- Carex folliculata (Statut: P) - FR: 
+- Carex gracillima (Statut: P) - FR: 
+- Carex gynandra (Statut: P) - FR: 
+- Carex gynocrates (Statut: D) - FR: 
+- Carex hirta (Statut: I) - FR: Laîche hérissée
+- Carex hormathodes (Statut: P) - FR: 
+- Carex interior (Statut: P) - FR: 
+- Carex intumescens (Statut: P) - FR: 
+- Carex lasiocarpa (Statut: P) - FR: Laîche à fruits velus, Laîche filiforme, Laîche à fruits barbus
+- Carex lenticularis (Statut: P) - FR: 
+- Carex leptalea (Statut: P) - FR: 
+- Carex leptonervia (Statut: P) - FR: 
+- Carex limosa (Statut: P) - FR: Laîche des tourbières, Laîche des vases, Laîche des bourbiers
+- Carex livida (Statut: P) - FR: 
+- Carex magellanica (Statut: P) - FR: Laîche de Magellan, Laîche pauvre
+- Carex michauxiana (Statut: P) - FR: 
+- Carex nigra (Statut: P) - FR: Laîche noire, Laîche commune, Laîche vulgaire
+- Carex novae-angliae (Statut: P) - FR: 
+- Carex oligosperma (Statut: P) - FR: Carex oligosperme
+- Carex paleacea (Statut: P) - FR: Carex paléacé
+- Carex pallescens (Statut: P) - FR: Laîche pâlissante, Laîche pâle
+- Carex panicea (Statut: I) - FR: Laîche panic, Laîche bleuâtre, Laîche millet
+- Carex pauciflora (Statut: P) - FR: Laîche pauciflore, Laîche à fleurs peu nombreuses
+- Carex pedunculata (Statut: P) - FR: 
+- Carex rariflora (Statut: P) - FR: 
+- Carex recta (Statut: D) - FR: 
+- Carex rostrata (Statut: P) - FR: Laîche rostrée, Laîche à becs, Laîche en ampoule, Laîche à utricules rostrés
+- Carex saxatilis (Statut: P) - FR: 
+- Carex scirpoidea (Statut: P) - FR: 
+- Carex scoparia (Statut: P) - FR: 
+- Carex stipata (Statut: P) - FR: 
+- Carex trisperma (Statut: P) - FR: 
+- Carex vacillans (Statut: P) - FR: 
+- Carex vesicaria (Statut: P) - FR: Laîche vésiculeuse, Laîche à utricules renflés
+- Carex viridula (Statut: P) - FR: Laîche tardive, Laîche tardive
+- Carex vulpinoidea (Statut: P) - FR: Laîche fausse laîche des renards
+- Carex wiegandii (Statut: P) - FR: 
+- Achillea millefolium (Statut: P) - FR: Achillée millefeuille, Herbe au charpentier, Sourcils-de-Vénus, Millefeuille, Chiendent rouge
+- Achillea ptarmica (Statut: I) - FR: Achillée sternutatoire, Herbe à éternuer, Achillée ptarmique
+- Ambrosia artemisiifolia (Statut: P) - FR: Ambroisie à feuilles d'armoise, Ambroise élevée, Ambroisie annuelle
+- Anaphalis margaritacea (Statut: P) - FR: Anaphale perlée, Immortelle blanche, Anaphale marguerite, Antennaire perlée
+- Antennaria howellii (Statut: P) - FR: 
+- Antennaria neglecta (Statut: D) - FR: 
+- Arctium minus (Statut: I) - FR: Petite bardane, Bardane à petites têtes, Bardane à petits capitules
+- Artemisia absinthium (Statut: D) - FR: Armoise absinthe, Absinthe, Herbe aux vers
+- Artemisia campestris (Statut: P) - FR: Armoise champêtre, Aurone des champs, Armoise rouge
+- Artemisia stelleriana (Statut: I) - FR: Armoise de Steller
+- Centaurea jacea (Statut: P) - FR: Centaurée jacée, Tête de moineau, Ambrette
+- Centaurea nigra (Statut: I) - FR: Centaurée noire
+- Cichorium intybus (Statut: I) - FR: Chicorée sauvage, Chicorée amère, Barbe-de-capucin
+- Cirsium arvense (Statut: I) - FR: Cirse des champs, Chardon des champs, Calcide
+- Cirsium muticum (Statut: P) - FR: 
+- Cirsium vulgare (Statut: I) - FR: Cirse commun, Cirse à feuilles lancéolées, Cirse lancéolé
+- Crepis capillaris (Statut: P) - FR: Crépide capillaire, Crépide à tiges capillaires, Crépide verdâtre, Crépis capillaire
+- Doellingeria umbellata (Statut: P) - FR: 
+- Erigeron annuus (Statut: I) - FR: Érigéron annuel, Vergerette annuelle, Sténactide annuelle
+- Erigeron canadensis (Statut: I) - FR: Érigéron du Canada, Conyze du Canada, Vergerette du Canada
+- Eurybia radula (Statut: P) - FR: 
+- Euthamia graminifolia (Statut: I) - FR: Solidage à feuilles de Graminée, Euthamie à feuilles de graminée
+- Eutrochium maculatum (Statut: P) - FR: 
+- Gnaphalium uliginosum (Statut: I) - FR: Gnaphale des fanges, Gnaphale des lieux humides, Gnaphale des marais, Cotonnière des marais
+- Helianthus annuus (Statut: I) - FR: Tournesol, Soleil, Hélianthe annuel
+- Hieracium umbellatum (Statut: D) - FR: Épervière en ombelle, Épervière à fleurs en ombelle, Accipitrine
+- Hypochaeris radicata (Statut: I) - FR: Porcelle enracinée, Salade-de-porc
+- Jacobaea vulgaris (Statut: I) - FR: Jacobée commune, Séneçon jacobée, Herbe de Saint-Jacques
+- Lactuca biennis (Statut: P) - FR: 
+- Leucanthemum vulgare (Statut: I) - FR: Marguerite commune
+- Matricaria discoidea (Statut: I) - FR: Matricaire discoïde, Matricaire fausse camomille
+- Nabalus trifoliolatus (Statut: P) - FR: 
+- Oclemena nemoralis (Statut: P) - FR: 
+- Omalotheca sylvatica (Statut: P) - FR: Gnaphale des bois, Omalothèque des bois
+- Packera aurea (Statut: P) - FR: 
+- Scorzoneroides autumnalis (Statut: I) - FR: Liondent d'automne, Fausse scorsonère d'automne
+- Senecio viscosus (Statut: I) - FR: Séneçon visqueux
+- Senecio vulgaris (Statut: I) - FR: Séneçon commun, Séneçon vulgaire
+- Solidago canadensis (Statut: D) - FR: Tête d'or
+- Solidago macrophylla (Statut: P) - FR: 
+- Solidago rugosa (Statut: P) - FR: Solidage rugueux
+- Solidago uliginosa (Statut: P) - FR: 
+- Sonchus arvensis (Statut: I) - FR: Laiteron des champs
+- Sonchus asper (Statut: I) - FR: Laiteron épineux
+- Sonchus oleraceus (Statut: I) - FR: Laiteron potager, Laiteron lisse, Laiteron maraîcher
+- Symphyotrichum novi-belgii (Statut: P) - FR: Symphyotriche de Nouvelle-Belgique, Aster des jardins, Aster de Nouvelle-Belgique, Aster de Virginie
+- Symphyotrichum puniceum (Statut: P) - FR: 
+- Tanacetum parthenium (Statut: P) - FR: Tanaisie matricaire, Matricaire, Gros camomille, Matrécoeur, Matricoeur
+- Tanacetum vulgare (Statut: I) - FR: Tanaisie commune, Sent-bon, Barbotine
+- Taraxacum officinale (Statut: P) - FR: Pissenlit officinal, Pissenlit commun
+- Tripleurospermum maritimum (Statut: I) - FR: Tripleurosperme maritime, Matricaire maritime
+- Tussilago farfara (Statut: I) - FR: Tussilage pas-d'âne, Tussilage, Pas-d'âne, Herbe de Saint-Quirin
+- Equisetum arvense (Statut: P) - FR: Prêle des champs, Queue-de-renard
+- Equisetum fluviatile (Statut: P) - FR: Prêle des eaux, Prêle des cours d'eau, Prêle des rivières, Prêle des bourbiers, Prêle des fanges
+- Equisetum scirpoides (Statut: P) - FR: Prêle faux scirpe
+- Equisetum sylvaticum (Statut: P) - FR: Prêle des bois, Prêle des forêts
+- Equisetum variegatum (Statut: P) - FR: Prêle panachée
+- Dendrolycopodium obscurum (Statut: P) - FR: 
+- Diphasiastrum complanatum (Statut: P) - FR: Lycopode aplati, Diphasiastre aplati
+- Diphasiastrum digitatum (Statut: D) - FR: 
+- Diphasiastrum sitchense (Statut: P) - FR: Lycopode de Sitka
+- Huperzia lucidula (Statut: P) - FR: 
+- Huperzia selago (Statut: P) - FR: Huperzie sélagine, Lycopode sélagine, Lycopode dressé
+- Isoetes echinospora (Statut: P) - FR: Isoète à spores épineuses, Isoète à spores spinuleuses, Isoète à spores échinulées
+- Isoetes lacustris (Statut: P) - FR: Isoète des lacs
+- Lycopodiella appressa (Statut: P) - FR: 
+- Lycopodiella inundata (Statut: P) - FR: Lycopodielle inondée, Lycopode des tourbières, Lycopode inondé
+- Lycopodium clavatum (Statut: P) - FR: Lycopode en massue, Éguaire
+- Lycopodium lagopus (Statut: D) - FR: 
+- Selaginella selaginoides (Statut: P) - FR: Sélaginelle fausse sélagine, Selaginelle fausse sélaginelle, Sélaginelle épineuse, Sélaginelle spinuleuse
+- Spinulum annotinum (Statut: P) - FR: Spinulum interrompu, Lycopode interrompu, Lycopode à feuilles de genévrier, Lycopode à rameaux d'un an
+- Athyrium angustum (Statut: P) - FR: Fougère femelle du Nord, Fougère femelle subarctique
+- Botrychium angustisegmentum (Statut: P) - FR: Botryche à segments étroits, Botrychium à segments étroits
+- Botrychium lunaria (Statut: P) - FR: Botryche lunaire, Botrychium lunaire
+- Botrychium matricariifolium (Statut: P) - FR: Botryche à feuilles de matricaire, Botrychium à feuilles de matricaire
+- Cystopteris fragilis (Statut: P) - FR: Cystoptéride fragile, Cystoptéris fragile, Capillaire blanc
+- Dryopteris carthusiana (Statut: D) - FR: Dryoptéride des Chartreux, Dryoptéris des chartreux, Fougère spinuleuse
+- Dryopteris cristata (Statut: P) - FR: Dryoptéride à crête, Dryoptéris à crêtes
+- Dryopteris filix-mas (Statut: P) - FR: Dryoptéride fougère-mâle, Fougère-mâle, Dryoptéris fougère-mâle
+- Dryopteris intermedia (Statut: P) - FR: 
+- Gymnocarpium dryopteris (Statut: P) - FR: Gymnocarpium dryoptéride, Polypode du chêne, Dryoptéris de Linné, Lastrée du chêne, Dryoptéride de Linné, Gymnocarpium du chêne
+- Onoclea sensibilis (Statut: P) - FR: Onoclée sensible
+- Ophioglossum pusillum (Statut: P) - FR: 
+- Osmunda claytoniana (Statut: P) - FR: 
+- Osmundastrum cinnamomeum (Statut: P) - FR: 
+- Phegopteris connectilis (Statut: P) - FR: Phégoptéride commune, Polypode du hêtre, Phégoptéris commun, Phégoptéris à pinnules confluentes, Thélyptéris phégoptéris, Fougère à moustache
+- Polypodium appalachianum (Statut: P) - FR: 
+- Polypodium virginianum (Statut: P) - FR: 
+- Polystichum braunii (Statut: P) - FR: Polystic de Braun
+- Pteridium aquilinum (Statut: P) - FR: Ptéridion aigle, Fougère à l'aigle, Fougère aigle, Fougère commune, Ptéride aquiline
+- Thelypteris palustris (Statut: P) - FR: Thélyptéride des marais, Fougère des marais, Thélyptéris des marais, Théliptéris des marécages
+- Arenaria serpyllifolia (Statut: I) - FR: Sabline à feuilles de serpolet, Sabline des murs
+- Argentina anserina (Statut: P) - FR: Potentille ansérine, Ansérine, Argentine ansérine, Potentille des oies
+- Bartonia virginica (Statut: P) - FR: 
+- Cerastium arvense (Statut: P) - FR: Céraiste des champs
+- Cerastium fontanum (Statut: I) - FR: Céraiste des sources
+- Cerastium glomeratum (Statut: P) - FR: Céraiste aggloméré, Oreille de souris
+- Chelone glabra (Statut: P) - FR: 
+- Circaea alpina (Statut: P) - FR: Circée des Alpes
+- Claytonia caroliniana (Statut: P) - FR: 
+- Clinopodium vulgare (Statut: P) - FR: Clinopode commun, Calament clinopode, Sarriette commune, Grand basilic
+- Coptis trifolia (Statut: P) - FR: 
+- Crassula aquatica (Statut: P) - FR: Crassule aquatique, Orpin aquatique
+- Epilobium ciliatum (Statut: P) - FR: Épilobe cilié
+- Epilobium hirsutum (Statut: P) - FR: Épilobe hérissé, Épilobe hirsute
+- Epilobium leptophyllum (Statut: P) - FR: 
+- Epilobium palustre (Statut: P) - FR: Épilobe des marais
+- Euphorbia helioscopia (Statut: I) - FR: Euphorbe réveil matin, Herbe aux verrues
+- Euphorbia peplus (Statut: I) - FR: Euphorbe péplus, Euphorbe des jardins, Euphorbe omblette, Ésule ronde
+- Euphrasia nemorosa (Statut: P) - FR: Euphraise des bois, Euphraise des forêts
+- Euphrasia randii (Statut: P) - FR: 
+- Galeopsis tetrahit (Statut: I) - FR: Galéopsis tétrahit, Ortie royale, Galéope tétrahit
+- Galium album (Statut: D) - FR: Gaillet blanc, Gaillet dressé
+- Galium aparine (Statut: P) - FR: Gaillet gratteron, Herbe collante, Gratteron
+- Galium labradoricum (Statut: P) - FR: 
+- Galium mollugo (Statut: I) - FR: Gaillet commun, Gaillet Mollugine, Caille-lait blanc
+- Galium palustre (Statut: P) - FR: Gaillet des marais
+- Galium tinctorium (Statut: P) - FR: 
+- Galium trifidum (Statut: P) - FR: Gaillet trifide
+- Galium triflorum (Statut: P) - FR: Gaillet à trois fleurs
+- Galium verum (Statut: I) - FR: Gaillet vrai, Gaillet jaune, Caille-lait jaune
+- Geranium robertianum (Statut: P) - FR: Géranium herbe-à-Robert, Géranium Robert, Herbe tangue
+- Halenia deflexa (Statut: P) - FR: 
+- Hippuris vulgaris (Statut: P) - FR: Pesse commune, Pesse, Pesse d'eau, Hippuris commun
+- Honckenya peploides (Statut: P) - FR: Honckénye faux péplis, Honckénye fausse péplide, Honckénya faux péplis, Honckénya fausse péplide, Pourpier de mer
+- Houstonia caerulea (Statut: P) - FR: 
+- Hypericum boreale (Statut: P) - FR: 
+- Hypericum canadense (Statut: P) - FR: Millepertuis du Canada
+- Hypericum majus (Statut: P) - FR: Millepertuis élevé, Grand millepertuis
+- Hypericum perforatum (Statut: I) - FR: Millepertuis perforé, Herbe de la Saint-Jean
+- Lamium purpureum (Statut: I) - FR: Lamier pourpre, Ortie rouge
+- Limosella australis (Statut: P) - FR: Limoselle australe
+- Linnaea borealis (Statut: P) - FR: Linnée boréale
+- Littorella americana (Statut: P) - FR: 
+- Lychnis flos-cuculi (Statut: P) - FR: Lychnide fleur-de-coucou, Lychnis fleur-de-coucou, Fleur-de-coucou, Œil-de-perdrix
+- Lycopus uniflorus (Statut: P) - FR: 
+- Mentha arvensis (Statut: P) - FR: Menthe des champs
+- Mentha canadensis (Statut: P) - FR: Menthe du Canada
+- Mitchella repens (Statut: P) - FR: 
+- Mitella nuda (Statut: P) - FR: 
+- Moehringia lateriflora (Statut: P) - FR: 
+- Montia fontana (Statut: P) - FR: Montie des fontaines
+- Nasturtium microphyllum (Statut: I) - FR: Cresson à petites feuilles
+- Odontites vernus (Statut: I) - FR: Odontite printanier, Odontitès printanier, Odontite rouge, Euphraise rouge
+- Orthilia secunda (Statut: P) - FR: Orthilie unilatérale, Pirole unilatérale, Pyrole unilatérale
+- Oxalis montana (Statut: P) - FR: 
+- Pinguicula vulgaris (Statut: P) - FR: Grassette commune, Grassette vulgaire
+- Plantago lanceolata (Statut: I) - FR: Plantain lancéolé, Petit plantain, Herbe Caroline, Ti-plantain
+- Plantago major (Statut: I) - FR: Plantain élevé, Plantain majeur, Grand plantain, Plantain à bouquet
+- Plantago maritima (Statut: P) - FR: Plantain maritime
+- Prunella vulgaris (Statut: P) - FR: Herbe Catois
+- Rhinanthus minor (Statut: I) - FR: Rhinanthe mineur, Petit cocriste, Petit rhinanthe, Rhinanthe à petites fleurs
+- Sagina nodosa (Statut: P) - FR: Sagine noueuse
+- Sagina procumbens (Statut: P) - FR: Sagine couchée, Sagine rampante
+- Salicornia depressa (Statut: P) - FR: 
+- Salicornia maritima (Statut: D) - FR: 
+- Sarracenia purpurea (Statut: P) - FR: Sarracénie pourpre, Sarracénia pourpre
+- Scutellaria galericulata (Statut: P) - FR: Scutellaire à casque, Scutellaire casquée, Grande toque
+- Silene acaulis (Statut: P) - FR: Silène acaule
+- Silene latifolia (Statut: I) - FR: Silène à feuilles larges, Silène à larges feuilles, Compagnon blanc
+- Silene vulgaris (Statut: P) - FR: Silène commun, Silène enflé, Tapotte
+- Spergula arvensis (Statut: I) - FR: Spargoute des champs, Spergule des champs, Espargoute des champs, Spargelle
+- Spergularia canadensis (Statut: P) - FR: Spergulaire du Canada
+- Spergularia marina (Statut: D) - FR: Spergule marine, Spergulaire marine, Spergulaire du sel
+- Spergularia rubra (Statut: I) - FR: Spergulaire rouge, Sabline rouge
+- Stachys palustris (Statut: P) - FR: Épiaire des marais, Ortie bourbière, Ortie morte
+- Stellaria alsine (Statut: P) - FR: Stellaire alsine, Stellaire des sources, Stellaire des fanges
+- Stellaria borealis (Statut: P) - FR: 
+- Stellaria graminea (Statut: I) - FR: Stellaire graminée
+- Stellaria humifusa (Statut: P) - FR: 
+- Stellaria longifolia (Statut: P) - FR: 
+- Stellaria media (Statut: I) - FR: Stellaire intermédiaire, Mouron, Mouron blanc
+- Urtica dioica (Statut: P) - FR: Ortie dioïque, Grande ortie
+- Veronica americana (Statut: I) - FR: 
+- Veronica officinalis (Statut: I) - FR: Véronique officinale, Herbe aux ladres, Thé d'Europe
+- Veronica serpyllifolia (Statut: I) - FR: Véronique à feuilles de serpolet
+- Viola cucullata (Statut: D) - FR: Violette à capuchon, Violette oblique
+- Viola lanceolata (Statut: P) - FR: 
+- Asparagus officinalis (Statut: I) - FR: Asperge officinale, Asperge, Asparagus
+- Clintonia borealis (Statut: P) - FR: 
+- Eriocaulon aquaticum (Statut: P) - FR: 
+- Iris hookeri (Statut: P) - FR: 
+- Iris versicolor (Statut: P) - FR: Iris versicolore, Iris changeant, Iris bigarré
+- Maianthemum canadense (Statut: P) - FR: 
+- Maianthemum stellatum (Statut: P) - FR: 
+- Maianthemum trifolium (Statut: P) - FR: 
+- Sisyrinchium angustifolium (Statut: P) - FR: Sisyrinchium à feuilles étroites, Bermudienne à feuilles étroites
+- Sisyrinchium montanum (Statut: P) - FR: Sisyrinchium des montagnes, Bermudienne des montagnes, Bermudienne montagnarde
+- Sparganium americanum (Statut: P) - FR: 
+- Sparganium emersum (Statut: D) - FR: Rubanier émergé, Rubanier simple
+- Sparganium eurycarpum (Statut: P) - FR: 
+- Sparganium natans (Statut: P) - FR: Rubanier nain, Petit rubanier
+- Streptopus amplexifolius (Statut: P) - FR: Streptope amplexicaule, Streptope à feuilles embrassantes, Uvulaire, Uvulaire à feuilles embrassantes, Sceau-de-Salomon rameux
+- Streptopus lanceolatus (Statut: P) - FR: 
+- Triantha glutinosa (Statut: P) - FR: 
+- Trillium cernuum (Statut: P) - FR: 
+- Xyris montana (Statut: P) - FR: 
+- Callitriche palustris (Statut: P) - FR: Callitriche des marais, Callitriche de printemps
+- Callitriche stagnalis (Statut: I) - FR: Callitriche des eaux stagnantes, Callitriche des étangs
+- Elatine minima (Statut: P) - FR: 
+- Eleocharis acicularis (Statut: P) - FR: Éléocharide épingle, Scirpe épingle, Éléocharis épingle
+- Glyceria borealis (Statut: P) - FR: 
+- Glyceria fluitans (Statut: I) - FR: Glycérie flottante, Manne de Pologne
+- Juncus militaris (Statut: P) - FR: 
+- Lobelia dortmanna (Statut: P) - FR: Lobélie de Dortmann
+- Myriophyllum alterniflorum (Statut: P) - FR: Myriophylle à fleurs alternes
+- Myriophyllum tenellum (Statut: P) - FR: Myriophylle grêle
+- Myriophyllum verticillatum (Statut: P) - FR: Myriophylle verticillé, Myriophylle à fleurs verticillées
+- Nuphar variegata (Statut: P) - FR: 
+- Potamogeton confervoides (Statut: P) - FR: 
+- Potamogeton epihydrus (Statut: P) - FR: 
+- Potamogeton gramineus (Statut: P) - FR: Potamot graminé, Potamot à feuilles de graminée
+- Potamogeton oakesianus (Statut: P) - FR: 
+- Potamogeton perfoliatus (Statut: P) - FR: Potamot perfolié, Potamot à feuilles perfoliées
+- Ruppia maritima (Statut: P) - FR: Ruppie maritime
+- Schoenoplectus subterminalis (Statut: P) - FR: 
+- Sparganium angustifolium (Statut: P) - FR: Rubanier à feuilles étroites
+- Stuckenia pectinata (Statut: P) - FR: Stuckénie pectinée, Potamot pectiné, Stuckénie de Suisse, Potamot de Suisse
+- Utricularia intermedia (Statut: P) - FR: Utriculaire intermédiaire
+- Zostera marina (Statut: P) - FR: Zostère marine, Zostère maritime, Varech des bords de mer, Varech marin
+- Arethusa bulbosa (Statut: P) - FR: Aréthuse bulbeuse
+- Calopogon tuberosus (Statut: P) - FR: 
+- Corallorhiza maculata (Statut: P) - FR: Corallorhize maculée
+- Corallorhiza trifida (Statut: P) - FR: Racine-de-corail, Corallorhize trifide, Coralline
+- Cypripedium acaule (Statut: P) - FR: Cypripède acaule
+- Cypripedium parviflorum (Statut: P) - FR: 
+- Cypripedium reginae (Statut: D) - FR: 
+- Goodyera repens (Statut: P) - FR: Goodyère rampante
+- Malaxis unifolia (Statut: P) - FR: 
+- Neottia convallarioides (Statut: P) - FR: 
+- Neottia cordata (Statut: P) - FR: Néottie cordée, Listère à feuilles cordées, Listère à feuilles en cœur, Listère cordée
+- Platanthera aquilonis (Statut: D) - FR: 
+- Platanthera blephariglottis (Statut: P) - FR: Platanthère à gorge frangée
+- Platanthera clavellata (Statut: P) - FR: 
+- Platanthera dilatata (Statut: P) - FR: 
+- Platanthera grandiflora (Statut: P) - FR: 
+- Platanthera lacera (Statut: P) - FR: 
+- Platanthera obtusata (Statut: P) - FR: 
+- Platanthera orbiculata (Statut: P) - FR: 
+- Platanthera psycodes (Statut: P) - FR: 
+- Pogonia ophioglossoides (Statut: P) - FR: 
+- Spiranthes romanzoffiana (Statut: P) - FR: 
+- Agrostis canina (Statut: I) - FR: Agrostide des chiens, Agrostide canine, Traînasse, Agrostis des chiens
+- Agrostis capillaris (Statut: I) - FR: Agrostide capillaire, Agrostide commune, Agrostis capillaire
+- Agrostis scabra (Statut: P) - FR: Agrsotide scabre
+- Agrostis stolonifera (Statut: I) - FR: Agrostide stolonifère, Traînasse, Agrostis stolonifère
+- Alopecurus geniculatus (Statut: I) - FR: Vulpin genouillé
+- Alopecurus pratensis (Statut: I) - FR: Vulpin des prés
+- Ammophila breviligulata (Statut: P) - FR: 
+- Anthoxanthum hirtum (Statut: P) - FR: 
+- Anthoxanthum monticola (Statut: P) - FR: Hiérochloé des montagnes
+- Anthoxanthum odoratum (Statut: I) - FR: Flouve odorante
+- Arrhenatherum elatius (Statut: I) - FR: Fromental élevé, Avoine élevée, Fromental, Fénasse, Ray-grass français
+- Avena sativa (Statut: I) - FR: Avoine cultivée
+- Brachyelytrum aristosum (Statut: P) - FR: 
+- Bromus ciliatus (Statut: P) - FR: 
+- Bromus hordeaceus (Statut: I) - FR: Brome mou, Brome orge
+- Calamagrostis canadensis (Statut: P) - FR: 
+- Calamagrostis pickeringii (Statut: P) - FR: 
+- Cinna latifolia (Statut: P) - FR: 
+- Cynosurus cristatus (Statut: I) - FR: Cynosure crételle, Crételle, Crételle commune, Crételle des prés
+- Dactylis glomerata (Statut: I) - FR: Dactyle aggloméré, Pied-de-poule
+- Danthonia spicata (Statut: P) - FR: 
+- Deschampsia cespitosa (Statut: P) - FR: Canche cespiteuse, Canche des champs
+- Dichanthelium boreale (Statut: P) - FR: 
+- Echinochloa crus-galli (Statut: I) - FR: Échinochloa pied-de-coq, Échinochloé Pied-de-coq, Pied-de-coq, Panic pied-de-coq
+- Elymus trachycaulus (Statut: P) - FR: Élyme à tiges rugueuses, Chiendent à tiges rugueuses
+- Elymus virginicus (Statut: P) - FR: 
+- Festuca filiformis (Statut: I) - FR: Fétuque filiforme, Fétuque capillaire
+- Festuca ovina (Statut: I) - FR: Fétuque ovine, Fétuque des moutons
+- Festuca rubra (Statut: I) - FR: Fétuque rouge
+- Glyceria canadensis (Statut: P) - FR: 
+- Glyceria grandis (Statut: P) - FR: Glycérie géante
+- Glyceria striata (Statut: P) - FR: Glycerie striée
+- Hordeum jubatum (Statut: P) - FR: Orge à crinière, Orge barbue
+- Hordeum vulgare (Statut: P) - FR: Orge commune, Escourgeon, Orge d'hiver, Orge à six rangs
+- Leymus mollis (Statut: P) - FR: 
+- Lolium multiflorum (Statut: I) - FR: Ivraie multiflore, Ray-grass d'Italie
+- Lolium perenne (Statut: I) - FR: Ivraie vivace, Ray-grass anglais
+- Muhlenbergia glomerata (Statut: P) - FR: 
+- Muhlenbergia uniflora (Statut: P) - FR: 
+- Nardus stricta (Statut: I) - FR: Nard raide, Poil-de-bouc
+- Phalaris arundinacea (Statut: P) - FR: Alpiste roseau, Baldingère faux roseau, Fromenteau
+- Phalaris canariensis (Statut: P) - FR: Alpiste des Canaries, Baldingère des Canaries
+- Phleum alpinum (Statut: P) - FR: Fléole des Alpes
+- Phleum pratense (Statut: I) - FR: Fléole des prés
+- Poa annua (Statut: I) - FR: Pâturin annuel
+- Poa compressa (Statut: I) - FR: Pâturin comprimé, Pâturin à tiges aplaties
+- Poa nemoralis (Statut: I) - FR: Pâturin des bois, Pâturin des forêts
+- Poa palustris (Statut: P) - FR: Pâturin des marais
+- Poa pratensis (Statut: I) - FR: Pâturin des prés
+- Poa saltuensis (Statut: P) - FR: 
+- Poa trivialis (Statut: I) - FR: Pâturin commun, Gazon d'Angleterre
+- Puccinellia pumila (Statut: P) - FR: 
+- Schedonorus arundinaceus (Statut: I) - FR: Schédonore roseau, Fétuque roseau, Fétuque faux roseau
+- Schedonorus pratensis (Statut: I) - FR: Schédonore des prés, Fétuque des prés
+- Setaria pumila (Statut: I) - FR: Sétaire naine, Sétaire glauque
+- Trisetum spicatum (Statut: P) - FR: Trisète en épi, Avoine en épi
+- Bolboschoenus maritimus (Statut: P) - FR: Bolbochoin maritime, Scirpe maritime, Rouche
+- Dulichium arundinaceum (Statut: P) - FR: Duliche roseau
+- Eleocharis elliptica (Statut: D) - FR: 
+- Eleocharis palustris (Statut: P) - FR: Éléocharide des marais, Scirpe des marais, Éléocharis des marais
+- Eleocharis parvula (Statut: P) - FR: Éléocharide très petite, Scirpe très petit, Scirpe nain, Petit souchet, Petit scirpe, Éléocharis très petit
+- Eleocharis quinqueflora (Statut: P) - FR: Éléocharide à cinq fleurs, Scirpe pauciflore, Scirpe à cinq fleurs, Éléocharis à cinq fleurs
+- Eleocharis uniglumis (Statut: P) - FR: Éléocharide à une écaille, Scirpe à une écaille, Éléocharis à une écaille
+- Eriophorum angustifolium (Statut: P) - FR: Linaigrette à feuilles étroites, Linaigrette à épis nombreux
+- Eriophorum gracile (Statut: P) - FR: Linaigrette grêle
+- Eriophorum tenellum (Statut: P) - FR: 
+- Eriophorum vaginatum (Statut: P) - FR: Linaigrette vaginée, Linaigrette engainée, Linaigrette à feuilles engainantes
+- Eriophorum virginicum (Statut: P) - FR: 
+- Eriophorum viridicarinatum (Statut: P) - FR: 
+- Juncus articulatus (Statut: P) - FR: Jonc articulé, Jonc à fruits luisants, Jonc à fruits brillants
+- Juncus balticus (Statut: P) - FR: Jonc balte
+- Juncus brevicaudatus (Statut: P) - FR: 
+- Juncus bufonius (Statut: P) - FR: Jonc des crapauds
+- Juncus canadensis (Statut: P) - FR: Jonc du Canada
+- Juncus conglomeratus (Statut: D) - FR: Jonc aggloméré
+- Juncus effusus (Statut: P) - FR: Jonc épars
+- Juncus filiformis (Statut: P) - FR: Jonc filiforme
+- Juncus pelocarpus (Statut: P) - FR: 
+- Juncus pylaei (Statut: P) - FR: 
+- Juncus stygius (Statut: P) - FR: Jonc du Styx
+- Juncus subcaudatus (Statut: P) - FR: 
+- Juncus tenuis (Statut: P) - FR: Jonc ténu, Jonc grêle, Jonc fin
+- Luzula acuminata (Statut: P) - FR: 
+- Luzula campestris (Statut: D) - FR: Luzule champêtre, Luzule des champs
+- Luzula multiflora (Statut: P) - FR: Luzule multiflore, Luzule à nombreuses fleurs, luzule à fleurs nombreuses
+- Luzula parviflora (Statut: P) - FR: 
+- Luzula spicata (Statut: P) - FR: Luzule en épi
+- Rhynchospora alba (Statut: D) - FR: Rhynchospore blanc
+- Rhynchospora fusca (Statut: P) - FR: Rhynchospore brun, Rhynchospore fauve
+- Schoenoplectus acutus (Statut: P) - FR: 
+- Schoenoplectus pungens (Statut: P) - FR: Schénoplecte piquant, Scirpe piquant, Souchet piquant
+- Schoenoplectus tabernaemontani (Statut: P) - FR: Schénoplecte glauque, Jonc des chaisiers glauque, Souchet de Tabernaemontanus, Scirpe glauque, Scirpe de Tabernaemontanus
+- Scirpus atrocinctus (Statut: P) - FR: 
+- Scirpus cyperinus (Statut: D) - FR: Scirpe souchet
+- Scirpus hattorianus (Statut: P) - FR: Scirpe de Hattori
+- Scirpus microcarpus (Statut: P) - FR: 
+- Trichophorum alpinum (Statut: P) - FR: Trichophore des Alpes, Scirpe de Hudson, Linaigrette des Alpes, Scirpe des Alpes
+- Trichophorum cespitosum (Statut: P) - FR: Trichophore cespiteux, Scirpe en touffe, Souchet gazonnant, Scirpe cespiteux
+- Triglochin maritima (Statut: D) - FR: Troscart maritime
+- Acer spicatum (Statut: P) - FR: Erable à épis, Plaine bâtarde
+- Alnus incana (Statut: P) - FR: Aulne blanchâtre, Aulne des montagnes, Aulne blanc, Aulne blanchi
+- Amelanchier bartramiana (Statut: P) - FR: 
+- Amelanchier laevis (Statut: P) - FR: 
+- Andromeda polifolia (Statut: P) - FR: Andromède à feuilles de polium, Andromède
+- Aralia nudicaulis (Statut: P) - FR: 
+- Arctostaphylos uva-ursi (Statut: P) - FR: Busserole raisin-d'ours, Raisin-d'ours, Arbousier traînant
+- Betula alleghaniensis (Statut: P) - FR: Bouleau jaune, Bouleau d'Alleghany
+- Betula cordifolia (Statut: P) - FR: 
+- Betula papyrifera (Statut: P) - FR: Bouleau à papier
+- Betula pumila (Statut: P) - FR: Bouleau nain
+- Calluna vulgaris (Statut: I) - FR: Callune commune, Callune, Béruée, Bruyère commune
+- Chamaedaphne calyculata (Statut: P) - FR: 
+- Corylus cornuta (Statut: P) - FR: 
+- Diapensia lapponica (Statut: P) - FR: 
+- Diervilla lonicera (Statut: P) - FR: Diervilla chèvrefeuille
+- Empetrum nigrum (Statut: P) - FR: Camarine noire
+- Epigaea repens (Statut: P) - FR: 
+- Gaultheria hispidula (Statut: P) - FR: 
+- Gaultheria procumbens (Statut: P) - FR: Thé rouge
+- Gaylussacia baccata (Statut: P) - FR: 
+- Gaylussacia bigeloviana (Statut: P) - FR: 
+- Ilex mucronata (Statut: P) - FR: Némopanthe mucroné, Faux houx
+- Ilex verticillata (Statut: P) - FR: 
+- Kalmia angustifolia (Statut: P) - FR: 
+- Kalmia polifolia (Statut: P) - FR: 
+- Kalmia procumbens (Statut: P) - FR: Kalmie couchée, Loiseleurie couchée, Azalée couchée
+- Lonicera villosa (Statut: P) - FR: 
+- Myrica gale (Statut: P) - FR: Myrique baumier, Piment royal, Bois-sent-bon, Piment aquatique
+- Populus alba (Statut: P) - FR: Peuplier blanc
+- Prunus pensylvanica (Statut: P) - FR: Cerisier de Pennsylvanie
+- Prunus virginiana (Statut: P) - FR: Prunier de Virginie, Cerisier de Virginie
+- Rhododendron canadense (Statut: P) - FR: 
+- Rhododendron groenlandicum (Statut: P) - FR: 
+- Ribes glandulosum (Statut: P) - FR: 
+- Ribes hirtellum (Statut: P) - FR: 
+- Ribes nigrum (Statut: D) - FR: Cassis, Cassissier, Groseillier noir
+- Ribes uva-crispa (Statut: D) - FR: Groseillier épineux, Groseillier à maquereaux
+- Rosa carolina (Statut: D) - FR: Rosier de Caroline
+- Rosa nitida (Statut: P) - FR: 
+- Rosa rugosa (Statut: I) - FR: Rosier rugueux
+- Rosa virginiana (Statut: P) - FR: Rosier de Virginie, Églantier de Virginie
+- Rubus canadensis (Statut: P) - FR: Ronce du Canada
+- Rubus idaeus (Statut: P) - FR: Ronce framboisier, Framboisier
+- Salix candida (Statut: P) - FR: 
+- Salix lucida (Statut: P) - FR: 
+- Salix pedicellaris (Statut: P) - FR: 
+- Salix planifolia (Statut: P) - FR: 
+- Salix uva-ursi (Statut: P) - FR: 
+- Sorbus americana (Statut: P) - FR: Sorbier d’Amérique
+- Sorbus aucuparia (Statut: I) - FR: Sorbier des oiseleurs, Sorbier sauvage, Sorbier des oiseaux
+- Sorbus decora (Statut: P) - FR: Sorbier décoratif
+- Spiraea alba (Statut: P) - FR: Spirée blanche
+- Vaccinium angustifolium (Statut: P) - FR: 
+- Vaccinium macrocarpon (Statut: P) - FR: 
+- Vaccinium oxycoccos (Statut: P) - FR: Airelle canneberge, Canneberge à gros fruits, Canneberge commune
+- Vaccinium uliginosum (Statut: P) - FR: Airelle des fanges, Airelle des marais, Myrtille des marais, Orcette
+- Vaccinium vitis-idaea (Statut: P) - FR: Airelle vigne du mont Ida, Airelle rouge, Vigne du mont Ida, Airelle du mont Ida
+- Viburnum edule (Statut: P) - FR: Viorne douce, Viorne comestible
+- Viburnum nudum (Statut: P) - FR: 
+- Viburnum opulus (Statut: P) - FR: Viorne obier, Viorne obier, Viorne aquatique, Boule-de-neige
+- Abies balsamea (Statut: P) - FR: Sapin baumier
+- Juniperus communis (Statut: P) - FR: Genévrier commun, Genièvre, Peteron
+- Juniperus horizontalis (Statut: P) - FR: Genévrier horizontal
+- Larix laricina (Statut: P) - FR: Mélèze laricin, Mélèze d'Amérique
+- Picea mariana (Statut: P) - FR: Epicéa noir, Epinette noire, Sapinette noire
+- Picea rubens (Statut: P) - FR: Épicéa rouge, Épinette rouge
+- Pinus strobus (Statut: P) - FR: Pin Weymouth, Pin du Lord, Pin blanc
+- Taxus baccata (Statut: P) - FR: If à baies, if commun
+- Taxus canadensis (Statut: P) - FR: If du Canada, Buis de sapin, Sapin traînard
+- Hudsonia ericoides (Statut: P) - FR: 
+- Solanum dulcamara (Statut: P) - FR: Morelle douce-amère, Douce amère, Bronde
+- Vicia sativa (Statut: I) - FR: Vesce cultivée, Vesce cultivée, Poisette
+- Potentilla intermedia (Statut: I) - FR: Potentille intermédiaire
+- Viola tricolor (Statut: I) - FR: Violette tricolore, Pensée sauvage, Pensée tricolore
+- Moneses uniflora (Statut: P) - FR: Monésès à une fleur, Pyrole uniflore, Pyrole à une fleur
+- Symphytum officinale (Statut: I) - FR: Consoude officinale, Grande consoude
+- Barbarea verna (Statut: I) - FR: Barbarée printanière, Barbarée du printemps, Barbarée précoce, Cresson de jardin
+- Linaria vulgaris (Statut: I) - FR: Linaire commune
+- Persicaria lapathifolia (Statut: P) - FR: Persicaire à feuilles de patience, Renouée à feuilles de patience, Renouée gonflée
+- Persicaria sagittata (Statut: P) - FR: Renouée sagittée, Gratte-cul
+- Trifolium arvense (Statut: I) - FR: Trèfle des champs, Trèfle Pied-de-lièvre, Pied-de-lièvre
+- Rubus chamaemorus (Statut: P) - FR: 
+- Thalictrum pubescens (Statut: P) - FR: Pigamon pubescent
+- Menyanthes trifoliata (Statut: P) - FR: Ményanthe trifolié, Trèfle d'eau, Ményanthe, Ményanthe trèfle d'eau
+- Bistorta vivipara (Statut: P) - FR: Bistorte vivipare, Renouée vivipare, Persicaire vivipare
+- Monotropa uniflora (Statut: P) - FR: 
+- Conioselinum chinense (Statut: P) - FR: 
+- Lathyrus palustris (Statut: P) - FR: Gesse des marais
+- Lepidium campestre (Statut: I) - FR: Passerage champêtre, Passerage des champs
+- Hypopitys monotropa (Statut: P) - FR: Monotrope sucepin, Sucepin, Hypopitys monotrope
+- Rumex acetosella (Statut: I) - FR: Patience petite-oseille, Petite oseille, Oseille des brebis, Surelle
+- Alchemilla monticola (Statut: D) - FR: Alchémille des montagnes
+- Ranunculus acris (Statut: I) - FR: Renoncule âcre, Bouton-d'or, Pied-de-coq
+- Barbarea vulgaris (Statut: I) - FR: Barbarée commune, Herbe de Sainte-Barbe
+- Persicaria maculosa (Statut: I) - FR: Persicaire maculée, Renouée persicaire, Persicaire
+- Myosotis laxa (Statut: P) - FR: Myosotis lâche
+- Geocaulon lividum (Statut: P) - FR: 
+- Bartonia paniculata (Statut: P) - FR: 
+- Melilotus albus (Statut: I) - FR: Mélilot blanc
+- Trifolium pratense (Statut: I) - FR: Trèfle des prés, Trèfle violet
+- Salsola kali (Statut: I) - FR: Salsola kali, Soude brûlée, Soude salsovie, Kali soude, Salsovie
+- Agrimonia striata (Statut: P) - FR: 
+- Heracleum maximum (Statut: P) - FR: 
+- Viola adunca (Statut: D) - FR: 
+- Polygonum aviculare (Statut: I) - FR: Renouée des oiseaux, Renouée Traînasse, Traînasse
+- Lepidium sativum (Statut: I) - FR: Passerage cultivée, Cresson alénois
+- Cakile edentula (Statut: P) - FR: 
+- Rubus pubescens (Statut: P) - FR: 
+- Pyrola minor (Statut: P) - FR: Pyrole mineure, Petite pyrole
+- Trifolium dubium (Statut: I) - FR: Trèfle douteux, Petit trèfle jaune
+- Sisymbrium officinale (Statut: I) - FR: Sisymbre officinal, Herbe aux chantres, Vélar officinal
+- Lobularia maritima (Statut: P) - FR: Lobulaire maritime, Alysse maritime, Alysson maritime
+- Buglossoides arvensis (Statut: D) - FR: Fausse buglosse des champs, Grémil des champs
+- Geum macrophyllum (Statut: P) - FR: 
+- Atriplex glabriuscula (Statut: P) - FR: Arroche de Babington
+- Atriplex patula (Statut: I) - FR: Arroche étalée
+- Solanum nigrum (Statut: I) - FR: Morelle noire
+- Myosotis arvensis (Statut: I) - FR: Myosotis des champs
+- Lysimachia terrestris (Statut: P) - FR: 
+- Geum rivale (Statut: P) - FR: Benoîte des ruisseaux
+- Potentilla argentea (Statut: I) - FR: Potentille argentée
+- Rumex occidentalis (Statut: P) - FR: 
+- Potentilla norvegica (Statut: P) - FR: Potentille de Norvège, Potentille norvégienne
+- Rumex britannica (Statut: P) - FR: 
+- Drosera intermedia (Statut: P) - FR: Rossolis intermédiaire, Droséra intermédiaire
+- Potentilla simplex (Statut: P) - FR: 
+- Lathyrus japonicus (Statut: P) - FR: Gesse du japon
+- Pyrola chlorantha (Statut: P) - FR: Pyrole à fleurs verdâtres, Pyrole verdâtre
+- Cardamine pensylvanica (Statut: P) - FR: 
+- Orobanche uniflora (Statut: P) - FR: 
+- Oenothera parviflora (Statut: P) - FR: Onagre à petites fleurs, Onagre muriquée, Onagre de Nouvelle-Écosse
+- Rumex acetosa (Statut: I) - FR: Patience oseille, Oseille des prés, Rumex oseille, Grande oseille, Oseille commune, Surelle
+- Oenothera biennis (Statut: P) - FR: Onagre bisannuelle, Herbe-aux-ânes
+- Rumex obtusifolius (Statut: I) - FR: Patience à feuilles obtuses, Oseille à feuilles obtuses, Patience sauvage, Parelle à feuilles obtuses, Rumex à feuilles obtuses
+- Daucus carota (Statut: P) - FR: Carotte sauvage, Carotte commune, Daucus carotte
+- Persicaria amphibia (Statut: P) - FR: Persicaire amphibie, Persicaire flottante, Renouée amphibie
+- Digitalis purpurea (Statut: I) - FR: Digitale pourpre, Gantelée, Gant de Notre-Dame
+- Trifolium campestre (Statut: I) - FR: Trèfle champêtre, Trèfle champêtre, Trèfle jaune, Trance
+- Ranunculus repens (Statut: I) - FR: Renoncule rampante, Bouton-d'or rampant
+- Angelica atropurpurea (Statut: P) - FR: Angélique pourpre sombre
+- Mertensia maritima (Statut: P) - FR: 
+- Drosera rotundifolia (Statut: P) - FR: Rossolis à feuilles rondes, Droséra à feuilles rondes
+- Fumaria officinalis (Statut: I) - FR: Fumeterre officinale, Herbe à la veuve
+- Sanicula marilandica (Statut: P) - FR: 
+- Trifolium repens (Statut: I) - FR: Trèfle rampant, Trèfle blanc, Trèfle de Hollande
+- Thlaspi arvense (Statut: I) - FR: Tabouret des champs, Monnoyère, Herbe-aux-écus
+- Vicia cracca (Statut: I) - FR: Vesce cracca, Jarosse, Vesce à épis
+- Lepidium didymum (Statut: I) - FR: Passerage didyme, Sénebière didyme, Corne-de-cerf didyme
+- Polygonum fowleri (Statut: P) - FR: 
+- Lysimachia maritima (Statut: P) - FR: Lysimaque maritime, Glaux maritime, Herbe au lait
+- Utricularia cornuta (Statut: P) - FR: 
+- Aegopodium podagraria (Statut: I) - FR: Égopode podagraire, Podagraire, Herbe aux goutteux, Fausse angélique
+- Filipendula ulmaria (Statut: I) - FR: Reine-des-prés, Spirée Ulmaire, Filipendule ulmaire
+- Fallopia convolvulus (Statut: I) - FR: Fallopie liseron, Vrillée liseron, Renouée liseron, Vrillée sauvage, Vrillée bâtarde, Faux liseron
+- Oenothera perennis (Statut: D) - FR: Onagre vivace
+- Rhodiola rosea (Statut: P) - FR: Rhodiole rose, Orpin rose
+- Sinapis arvensis (Statut: I) - FR: Moutarde des champs, Raveluche
+- Lupinus perennis (Statut: I) - FR: Lupin vivace
+- Carum carvi (Statut: I) - FR: Cumin des prés, Carvi commun, Carvi, Anis des Vosges, Cumin des Vosges
+- Arabidopsis thaliana (Statut: I) - FR: Fausse arabette de Thalius, Arabette de Thalius, Arabette des dames
+- Fragaria virginiana (Statut: P) - FR: Fraisier de Virginie
+- Conringia orientalis (Statut: I) - FR: Conringie d'Orient, Vélar d'Orient, Roquette d'orient
+- Polygonum oxyspermum (Statut: P) - FR: Renouée à fruits aigus
+- Amaranthus retroflexus (Statut: D) - FR: Amarante réfléchie, Amaranthe à racines rouges, Blé rouge
+- Ranunculus flammula (Statut: P) - FR: Renoncule flammette, Renoncule flammette, Petite douve, Flammule
+- Pyrola americana (Statut: D) - FR: 
+- Medicago lupulina (Statut: I) - FR: Luzerne lupuline, Minette
+- Potentilla anglica (Statut: I) - FR: Potentille d'Angleterre, Potentille couchée
+- Utricularia minor (Statut: P) - FR: Utriculaire mineure, Petite utriculaire
+- Draba glabella (Statut: P) - FR: 
+- Borago officinalis (Statut: I) - FR: Bourrache officinale
+- Raphanus raphanistrum (Statut: I) - FR: Radis ravenelle, Ravenelle, Radis sauvage
+- Rumex longifolius (Statut: I) - FR: Patience à feuilles longues, Patience à longues feuilles, Oseille à feuilles longues, Oseille à longues feuilles, Rumex à feuilles longues
+- Medicago sativa (Statut: P) - FR: Luzerne cultivée
+- Ranunculus sceleratus (Statut: I) - FR: Renoncule scélérate, Renoncule à feuilles de céleri
+- Rumex crispus (Statut: I) - FR: Rumex crépu
+- Lythrum salicaria (Statut: I) - FR: Salicaire commune, Salicaire pourpre
+- Aethusa cynapium (Statut: I) - FR: Petite cigüe, Faux persil, Éthuse ache-des-chiens
+- Rumex triangulivalvis (Statut: P) - FR: Patience à valves triangulaires, Oseille à valves triangulaires, Rumex à valves triangulaires
+- Trifolium hybridum (Statut: I) - FR: Trèfle hybride, Trèfle bâtard, Trèfle fistuleux
+- Angelica lucida (Statut: D) - FR: 
+- Erysimum cheiranthoides (Statut: D) - FR: Vélar fausse giroflée, Fausse giroflée
+- Erucastrum gallicum (Statut: I) - FR: Érucastre de France, Fausse roquette de France
+- Hesperis matronalis (Statut: P) - FR: Julienne des dames, Giroflée des dames
+- Rorippa palustris (Statut: P) - FR: Rorippe des marais, Rorippe faux cresson, Cresson des marais
+- Ranunculus abortivus (Statut: P) - FR: 
+- Impatiens capensis (Statut: P) - FR: Impatiente du Cap, Balsamine du Cap, Balsamine orange
+- Chenopodium album (Statut: I) - FR: Chénopode blanc, Senousse
+- Myosotis scorpioides (Statut: I) - FR: Myosotis faux scorpion, Myosotis des marais
+- Cardamine pratensis (Statut: D) - FR: Cardamine des prés, Cresson des prés, Cressonnette
+- Viola arvensis (Statut: I) - FR: Violette des champs, Pensée des champs
+- Lotus corniculatus (Statut: I) - FR: Lotier corniculé, Pied-de-poule, Sabot-de-la-mariée
+- Oenothera villosa (Statut: D) - FR: Onagre velue, Onagre à feuilles de saule
+- Persicaria hydropiper (Statut: I) - FR: Persicaire poivre-d'eau, Renouée poivre-d'eau
+- Comarum palustre (Statut: P) - FR: Comaret des marais, Potentille des marais
+- Capsella bursa-pastoris (Statut: I) - FR: Capselle bourse-à-pasteur, Bourse-de-capucin, Bourse-à-pasteur
+- Sanguisorba canadensis (Statut: P) - FR: Sanguisorbe du Canada
+- Trifolium aureum (Statut: I) - FR: Trèfle doré, Trèfle agraire
+- Astrantia major (Statut: I) - FR: Grande astrance, Astrance élevée, Grande radiaire
+- Sisymbrium altissimum (Statut: P) - FR: Sisymbre très élevé, Sisymbre fausse moutarde, Vélar très élevé
