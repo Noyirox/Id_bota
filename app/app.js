@@ -240,63 +240,81 @@ function openModal(taxon) {
         </div>
     `;
     
-    // --- 3. AFFICHAGE ET INITIALISATION ---
+// --- 3. AFFICHAGE ET INITIALISATION ---
     modal.style.display = 'block';
     
-    carte = L.map('mini-carte').setView([46.85, -56.3], 10);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18 }).addTo(carte);
+    try {
+        carte = L.map('mini-carte').setView([46.85, -56.3], 10);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18 }).addTo(carte);
 
-    // On laisse 150ms à la tablette pour afficher la fenêtre avant de manipuler la carte (plus sûr)
-    setTimeout(function() {
-        carte.invalidateSize();
-        chargerCarte(taxon.scientific_name);
-    }, 150);
+        // On laisse 300ms pour s'assurer que la fenêtre est bien visible (délai allongé par sécurité)
+        setTimeout(function() {
+            carte.invalidateSize();
+            chargerCarteDiagnostic(taxon.scientific_name);
+        }, 300);
+
+    } catch (err) {
+        document.getElementById('mini-carte').insertAdjacentHTML('afterend', `<p style="color:red;">💥 Erreur d'initialisation de la carte : ${err.message}</p>`);
+    }
 
     modal.querySelector('.close-btn').onclick = () => {
         modal.style.display = 'none';
     }
 }
 
-
-// --- FONCTION POUR CHARGER LES DONNÉES GEOJSON (ULTRA-ROBUSTE) ---
-function chargerCarte(especeActuelle) {
+// --- LE RADAR DE DIAGNOSTIC ---
+function chargerCarteDiagnostic(especeActuelle) {
     const containerCarte = document.getElementById('mini-carte');
+    let log = '<div style="background:#fff3cd; padding:10px; margin-top:15px; border-radius:5px; font-family:monospace; font-size:13px; color:#856404; line-height: 1.5;">';
+    log += '<b>🕵️ Rapport de diagnostic :</b><br>';
 
-    if (typeof observationsData === 'undefined') {
-        containerCarte.insertAdjacentHTML('afterend', '<p style="color:red; text-align:center;">❌ Erreur: observations.js introuvable.</p>');
-        return;
-    }
-
-    const nomSimplifie = especeActuelle.split(' ').slice(0, 2).join(' ').trim();
-    const coordonnees = observationsData[especeActuelle] || observationsData[nomSimplifie];
-    
-    if (!coordonnees || coordonnees.length === 0) {
-        containerCarte.insertAdjacentHTML('afterend', `<p style="color:#d35400; text-align:center;">⚠️ Aucune coordonnée pour ${nomSimplifie}.</p>`);
-        return;
-    }
-
-    const groupePoints = L.featureGroup().addTo(carte);
-    let validPoints = 0;
-
-    coordonnees.forEach(pt => {
-        if (typeof pt[0] === 'number' && typeof pt[1] === 'number') {
-            L.circleMarker([pt[0], pt[1]], {
-                radius: 7,
-                fillColor: "#ff0000", // ROUGE VIF pour bien les voir
-                color: "#900000",
-                weight: 2,
-                opacity: 1,
-                fillOpacity: 1
-            }).addTo(groupePoints);
-            validPoints++;
+    try {
+        if (typeof observationsData === 'undefined') {
+            log += '❌ ERREUR : Le fichier observations.js est introuvable.<br>';
+            containerCarte.insertAdjacentHTML('afterend', log + '</div>');
+            return;
         }
-    });
+        log += '✅ Fichier observations.js bien lu.<br>';
 
-    if (validPoints > 0) {
-        // Validation visuelle !
-        containerCarte.insertAdjacentHTML('afterend', `<p style="color:green; text-align:center; margin-top:5px;">✅ <b>${validPoints}</b> observations affichées.</p>`);
-        // Recadrage automatique sur les points
-        carte.fitBounds(groupePoints.getBounds(), { padding: [20, 20], maxZoom: 14 });
+        const nomSimplifie = especeActuelle.split(' ').slice(0, 2).join(' ').trim();
+        const coordonnees = observationsData[especeActuelle] || observationsData[nomSimplifie];
+        
+        if (!coordonnees || coordonnees.length === 0) {
+            log += `❌ ERREUR : Aucune donnée GPS trouvée pour "<b>${nomSimplifie}</b>" dans la base.<br>`;
+            containerCarte.insertAdjacentHTML('afterend', log + '</div>');
+            return;
+        }
+        log += `✅ Espèce "<b>${nomSimplifie}</b>" trouvée dans le tableur (${coordonnees.length} points).<br>`;
+
+        const groupePoints = L.featureGroup().addTo(carte);
+        let validPoints = 0;
+
+        coordonnees.forEach(pt => {
+            if (typeof pt[0] === 'number' && typeof pt[1] === 'number') {
+                L.circleMarker([pt[0], pt[1]], {
+                    radius: 7,
+                    fillColor: "#ff0000",
+                    color: "#900000",
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 1
+                }).addTo(groupePoints);
+                validPoints++;
+            }
+        });
+
+        if (validPoints > 0) {
+            log += `✅ ${validPoints} points dessinés avec succès sur la carte.<br>`;
+            carte.fitBounds(groupePoints.getBounds(), { padding: [20, 20], maxZoom: 14 });
+        } else {
+            log += '❌ ERREUR : Les coordonnées étaient invalides ou mal formatées.<br>';
+        }
+
+        containerCarte.insertAdjacentHTML('afterend', log + '</div>');
+
+    } catch (e) {
+        log += `<b>💥 ERREUR CRITIQUE DANS LE SCRIPT :</b> ${e.message}<br>`;
+        containerCarte.insertAdjacentHTML('afterend', log + '</div>');
     }
 }
 
