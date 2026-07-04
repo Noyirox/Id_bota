@@ -166,11 +166,16 @@ function switchMainImage(src) {
     document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
     event.target.classList.add('active');
 }
-
 function openModal(taxon) {
     const modal = document.getElementById('species-modal');
     const body = document.getElementById('modal-body');
     
+    // --- 1. NETTOYAGE DE LA CARTE AVANT TOUTE CHOSE ---
+    if (carte !== null) {
+        carte.remove();
+        carte = null;
+    }
+
     let galleryHtml = '';
     let thumbsHtml = '';
     if (taxon.images && taxon.images.length > 0) {
@@ -206,6 +211,7 @@ function openModal(taxon) {
     const frName = taxon.nom_vern ? `<h3>${taxon.nom_vern}</h3>` : '';
     const enName = taxon.common_name ? `<p style="color:#888;">${taxon.common_name}</p>` : '';
 
+    // --- 2. INJECTION DU HTML ---
     body.innerHTML = `
         <div class="species-header">
             <div class="species-title-area">
@@ -234,28 +240,63 @@ function openModal(taxon) {
         </div>
     `;
     
+    // --- 3. AFFICHAGE ET INITIALISATION ---
     modal.style.display = 'block';
     
-    // --- GESTION DE LA CARTE ---
-    if (carte !== null) {
-        carte.remove();
-    }
-    
     carte = L.map('mini-carte').setView([46.85, -56.3], 10);
-    
-    // Appel du fond de carte OpenStreetMap
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 18
-    }).addTo(carte);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18 }).addTo(carte);
 
-    // On attend un instant que la fenêtre modale s'affiche pour redimensionner la carte correctement
+    // On laisse 150ms à la tablette pour afficher la fenêtre avant de manipuler la carte (plus sûr)
     setTimeout(function() {
         carte.invalidateSize();
         chargerCarte(taxon.scientific_name);
-    }, 50);
+    }, 150);
 
     modal.querySelector('.close-btn').onclick = () => {
         modal.style.display = 'none';
+    }
+}
+
+
+// --- FONCTION POUR CHARGER LES DONNÉES GEOJSON (ULTRA-ROBUSTE) ---
+function chargerCarte(especeActuelle) {
+    const containerCarte = document.getElementById('mini-carte');
+
+    if (typeof observationsData === 'undefined') {
+        containerCarte.insertAdjacentHTML('afterend', '<p style="color:red; text-align:center;">❌ Erreur: observations.js introuvable.</p>');
+        return;
+    }
+
+    const nomSimplifie = especeActuelle.split(' ').slice(0, 2).join(' ').trim();
+    const coordonnees = observationsData[especeActuelle] || observationsData[nomSimplifie];
+    
+    if (!coordonnees || coordonnees.length === 0) {
+        containerCarte.insertAdjacentHTML('afterend', `<p style="color:#d35400; text-align:center;">⚠️ Aucune coordonnée pour ${nomSimplifie}.</p>`);
+        return;
+    }
+
+    const groupePoints = L.featureGroup().addTo(carte);
+    let validPoints = 0;
+
+    coordonnees.forEach(pt => {
+        if (typeof pt[0] === 'number' && typeof pt[1] === 'number') {
+            L.circleMarker([pt[0], pt[1]], {
+                radius: 7,
+                fillColor: "#ff0000", // ROUGE VIF pour bien les voir
+                color: "#900000",
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 1
+            }).addTo(groupePoints);
+            validPoints++;
+        }
+    });
+
+    if (validPoints > 0) {
+        // Validation visuelle !
+        containerCarte.insertAdjacentHTML('afterend', `<p style="color:green; text-align:center; margin-top:5px;">✅ <b>${validPoints}</b> observations affichées.</p>`);
+        // Recadrage automatique sur les points
+        carte.fitBounds(groupePoints.getBounds(), { padding: [20, 20], maxZoom: 14 });
     }
 }
 
@@ -341,50 +382,4 @@ function lookupAndOpenModal(scientificName) {
     } else {
         alert("Species details not available offline: " + scientificName);
     }
-}
-
-// --- FONCTION POUR CHARGER LES DONNÉES GEOJSON (VERSION AMÉLIORÉE) ---
-function chargerCarte(especeActuelle) {
-    const containerCarte = document.getElementById('mini-carte');
-
-    // 1. Vérification du fichier de données
-    if (typeof observationsData === 'undefined') {
-        containerCarte.insertAdjacentHTML('afterend', '<p style="color:red; text-align:center;">Erreur: Le fichier observations.js n\'est pas détecté.</p>');
-        return;
-    }
-
-    // 2. Nettoyage du nom (On ne garde que "Genre" et "espèce", on ignore les auteurs)
-    const nomSimplifie = especeActuelle.split(' ').slice(0, 2).join(' ').trim();
-    
-    // On essaie de trouver le nom exact, sinon le nom simplifié
-    const coordonnees = observationsData[especeActuelle] || observationsData[nomSimplifie];
-    
-    // 3. Que faire si la plante n'est pas dans le fichier ?
-    if (!coordonnees || coordonnees.length === 0) {
-        containerCarte.insertAdjacentHTML('afterend', `<p style="color:#d35400; font-size:0.9em; text-align:center; padding-top:10px;">⚠️ Aucune coordonnée GPS trouvée dans la base pour <b>${nomSimplifie}</b>.</p>`);
-        return;
-    }
-
-    // 4. Création d'un groupe pour ranger tous nos points
-    const groupePoints = L.featureGroup().addTo(carte);
-
-    // Placer chaque point dans le groupe
-    coordonnees.forEach(pt => {
-        if (pt[0] && pt[1]) {
-            L.circleMarker([pt[0], pt[1]], {
-                radius: 6,
-                fillColor: "#2ecc71",
-                color: "#27ae60",
-                weight: 2,
-                opacity: 1,
-                fillOpacity: 0.8
-            }).addTo(groupePoints);
-        }
-    });
-
-    // 5. La touche magique : on demande à la carte de zoomer exactement sur nos points !
-    carte.fitBounds(groupePoints.getBounds(), { 
-        padding: [20, 20], // Laisse un petit bord autour des points
-        maxZoom: 14        // Évite de zoomer de façon absurde si on n'a qu'un seul point
-    });
 }
