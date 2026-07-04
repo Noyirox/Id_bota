@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertisseur CSV vers JS</title>
+</head>
+<body style="font-family: sans-serif; padding: 20px; background: #f4f4f4;">
+    <h2>1. Sélectionnez votre fichier CSV d'occurrences</h2>
+    <input type="file" id="csvFile" accept=".csv" style="padding: 10px; background: white; border: 1px solid #ccc;">
+    
+    <br><br>
+    
+    <h2>2. Copiez le résultat ci-dessous</h2>
+    <p>Sélectionnez tout le texte (Ctrl+A / Tout sélectionner), copiez-le, et collez-le dans votre fichier <b>data/observations.js</b> :</p>
+    <textarea id="resultat" style="width: 100%; height: 400px; font-family: monospace; padding: 10px;"></textarea>
+
+    <script>
+        // Fonction robuste pour lire une ligne CSV même avec des guillemets
+        function parseCsvRow(row) {
+            let result = [], cur = '', inQuotes = false;
+            for (let i = 0; i < row.length; i++) {
+                if (row[i] === '"') inQuotes = !inQuotes;
+                else if (row[i] === ',' && !inQuotes) { result.push(cur); cur = ''; } 
+                else cur += row[i];
+            }
+            result.push(cur);
+            return result;
+        }
+
+        document.getElementById('csvFile').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const text = e.target.result;
+                const lines = text.split('\n');
+                
+                const headers = parseCsvRow(lines[0]).map(h => h.trim());
+                const spIdx = headers.indexOf('species');
+                const latIdx = headers.indexOf('decimalLatitude');
+                const lonIdx = headers.indexOf('decimalLongitude');
+                
+                if (spIdx === -1 || latIdx === -1 || lonIdx === -1) {
+                    alert("Erreur : Les colonnes species, decimalLatitude ou decimalLongitude sont introuvables.");
+                    return;
+                }
+
+                const data = {};
+                
+                for (let i = 1; i < lines.length; i++) {
+                    if (!lines[i].trim()) continue;
+                    const cols = parseCsvRow(lines[i]);
+                    
+                    if (cols.length > Math.max(spIdx, latIdx, lonIdx)) {
+                        let espece = cols[spIdx].trim();
+                        let lat = parseFloat(cols[latIdx]);
+                        let lon = parseFloat(cols[lonIdx]);
+                        
+                        if (espece && !isNaN(lat) && !isNaN(lon)) {
+                            if (!data[espece]) data[espece] = [];
+                            // Arrondi à 4 décimales (~11m de précision) pour alléger le fichier
+                            data[espece].push([parseFloat(lat.toFixed(4)), parseFloat(lon.toFixed(4))]);
+                        }
+                    }
+                }
+                
+                document.getElementById('resultat').value = "const observationsData = " + JSON.stringify(data) + ";";
+            };
+            reader.readAsText(file);
+        });
+    </script>
+</body>
+</html>
